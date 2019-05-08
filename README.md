@@ -13,6 +13,12 @@ API Rest para realizar cotizaciones sobre las tarifas y temporalidades
 * Ser Feliz 😸
 
 
+## Despliegue
+
+```bash
+serverless deploy
+```
+
 ## Recursos despelegados
 
 Metodo | Ejemplo de recursos desplegados
