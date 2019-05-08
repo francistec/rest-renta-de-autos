@@ -1,0 +1,28 @@
+{
+  "name": "car-rental-rest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/francis.tec.can/car-rental-rest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/francis.tec.can/car-rental-rest/issues"
+  },
+  "homepage": "https://gitlab.com/francis.tec.can/car-rental-rest#readme",
+  "devDependencies": {
+    "aws-sdk": "^2.441.0",
+    "serverless-offline": "^4.9.4"
+  },
+  "dependencies": {
+    "async": "^2.6.2",
+    "moment": "^2.24.0"
+  }
+}

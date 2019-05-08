@@ -1,0 +1,32 @@
+service: cars # NOTE: update this with your service name
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+
+plugins:
+  - serverless-offline
+
+functions:
+  QuoteList:
+    handler: list.handler
+    events:
+      - http:
+          path: /quote
+          method: get
+  Content:
+    handler: content.handler
+    events:
+      - http:
+          path: /content
+          method: get
+  Quote:
+    handler: quote.handler
+    request: 
+          parameters: 
+             paths: 
+               type: true
+    events:
+      - http:
+          path: /quote/{type}
+          method: get
